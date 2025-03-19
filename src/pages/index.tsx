@@ -27,18 +27,13 @@ const Home: React.FC = () => {
                     </h1>
 
                     <p>
-                        It's more than a simple attendance-taking app! Let your students mark themselves under our system's anti-cheat protocol and obtain insights on their attendance patterns.
+                        It's more than a simple attendance-taking app! Mark attendances of your students under our system's anti-cheat protocol and obtain insights on their attendance patterns.
                     </p>
 
                     <div className={styles.buttons}>
                         <button>
                             <FaChalkboardTeacher />
-                            <span>Try it as Teacher</span>
-                        </button>
-
-                        <button>
-                            <PiStudent />
-                            <span>Login as Student</span>
+                            <span>Try it Now!</span>
                         </button>
                     </div>
                 </div>
@@ -58,7 +53,7 @@ const Home: React.FC = () => {
                         <div className={styles.feature}>
                             <FaUsersSlash />
                             <span>
-                                Anti-cheat algorithms to prevent students from marking false-present attendances
+                                Anti-cheat algorithms to prevent intruders from marking any false attendances
                             </span>
                         </div>
 
@@ -79,7 +74,7 @@ const Home: React.FC = () => {
                         <div className={styles.feature}>
                             <FaHeartPulse />
                             <span>
-                                Reliable & Easy-to-use interface for both teachers and students
+                                Reliable & Easy-to-use interface for teachers
                             </span>
                         </div>
 
@@ -93,7 +88,7 @@ const Home: React.FC = () => {
                         <div className={styles.feature}>    
                             <PiStudent />
                             <span>
-                                Students can mark their attendance with a single tap through their smartphones
+                                Teachers can mark students' attendance with a few touches on their smartphones
                             </span>
                         </div>
                     </div>
