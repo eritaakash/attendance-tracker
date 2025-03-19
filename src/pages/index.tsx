@@ -9,11 +9,17 @@ import { FaVideoSlash, FaUsersSlash } from 'react-icons/fa';
 import { BsClipboardData } from 'react-icons/bs';
 
 import { FaHeartPulse } from 'react-icons/fa6';
+import Head from 'next/head';
 
 
 const Home: React.FC = () => {
     return (
         <main className={styles.main}>
+            <Head>
+                <title>Attendance Tracker Minor Project</title>
+                <meta name="description" content="Attendance Tracker Minor Project" />
+            </Head>
+            
             <section className={styles.hero}>
                 <div>
                     <h1>
