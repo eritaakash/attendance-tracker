@@ -50,24 +50,17 @@ const Home: React.FC = () => {
 
                     <div className={styles.features_list}>
 
-                        <div className={styles.feature}>
-                            <FaUsersSlash />
+                        <div className={styles.feature}>    
+                            <PiStudent />
                             <span>
-                                Anti-cheat algorithms to prevent intruders from marking any false attendances
+                                Teachers can mark students' attendance with a few touches on their smartphones
                             </span>
                         </div>
 
                         <div className={styles.feature}>
-                            <FaVideoSlash />
+                            <FaChalkboardTeacher />
                             <span>
-                                No hardware installation required to use this app - just your smartphones!
-                            </span>
-                        </div>
-
-                        <div className={styles.feature}>
-                            <BsClipboardData />
-                            <span>
-                                Get insights on your attendance patterns and optimize your time management
+                                Teachers can manage their classes and students with ease, all in one place
                             </span>
                         </div>
 
@@ -79,16 +72,23 @@ const Home: React.FC = () => {
                         </div>
 
                         <div className={styles.feature}>
-                            <FaChalkboardTeacher />
+                            <BsClipboardData />
                             <span>
-                                Teachers can manage their classes and students with ease, all in one place
+                                Get insights on your attendance patterns and optimize your time management
                             </span>
                         </div>
 
-                        <div className={styles.feature}>    
-                            <PiStudent />
+                        <div className={styles.feature}>
+                            <FaVideoSlash />
                             <span>
-                                Teachers can mark students' attendance with a few touches on their smartphones
+                                No hardware installation required to use this app - just your smartphones!
+                            </span>
+                        </div>
+
+                        <div className={styles.feature}>
+                            <FaUsersSlash />
+                            <span>
+                                Anti-cheat algorithms to prevent intruders from marking any false attendances
                             </span>
                         </div>
                     </div>
